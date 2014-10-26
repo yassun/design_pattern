@@ -3,7 +3,11 @@
 # ConcreteCreator: 実際にオブジェクトの生成を行う
 # Product: ConcreteFactoryによって生成される側のオブジェクト共通部分
 # ConcreteProduct: 生成されるオブジェクト
-
+#
+# コンストラクタの呼び出しを避ける事で依存度を下げる。
+# インスタンス作成時にProductを継承しているものであればなんでも返せる = Creatorとの分離
+# 親クラスであるFactoryが、ConcreteProductの生成をサブクラスに委譲する(Template pattern)のが、Factory Method
+#
 class Factory
 
   def create(owner)
