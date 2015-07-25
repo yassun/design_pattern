@@ -20,6 +20,9 @@
 - [Facade パターン](facade)
 - [Bridge パターン](bridge)
 - [Chain of responsibility パターン](chain_of_responsibility)
+- [Flyweight パターン](flyweight)
+- [Interpreter パターン](interpreter)
+- [Proxy パターン](proxy)
 
 ## 参考
 
