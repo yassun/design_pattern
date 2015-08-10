@@ -23,6 +23,7 @@
 - [Flyweight パターン](flyweight)
 - [Interpreter パターン](interpreter)
 - [Proxy パターン](proxy)
+- [Mediator パターン](mediator)
 
 ## 参考
 
